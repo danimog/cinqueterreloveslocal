@@ -1,0 +1,14 @@
+$font-stack: 'Roboto Mono', sans-serif;
+$page-back-color: #f7f7f7;
+
+
+html, body {
+  height: 100%;
+  font: 100% $font-stack;
+  margin: auto;
+  background-color: $page-back-color;
+}
+
+.logo{
+		max-height: 90px;
+}

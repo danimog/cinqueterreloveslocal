@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"$font-stack: 'Roboto Mono', sans-serif;\n$page-back-color: #f7f7f7;\n\n\nhtml, body {\n  height: 100%;\n  font: 100% $font-stack;\n  margin: auto;\n  background-color: $page-back-color;\n}\n\n.logo{\n\t\tmax-height: 90px;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACIA,AAAA,IAAI,EAAE,IAAI,CAAC,EACT,MAAM,EAAE,IAAI,EACZ,IAAI,EAAE,IAAI,CANC,aAAa,EAAE,UAAU,EAOpC,MAAM,EAAE,IAAI,EACZ,gBAAgB,EAPA,OAAO,GAQxB;;AAED,AAAA,KAAK,CAAA,EACH,UAAU,EAAE,IAAI,GACjB"
+}
